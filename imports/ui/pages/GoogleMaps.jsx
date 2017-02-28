@@ -2,7 +2,7 @@ import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import MapPoint from './MapPoint.jsx';
 // convert address to lat lng
-var data = require('./datanew.json');
+var data = require('./bigdatanew.json');
 var apiKey = require('./../../../GoogleMaps_Api').apiKey;
 
 var GoogleMaps = React.createClass({

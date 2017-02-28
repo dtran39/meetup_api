@@ -2,7 +2,7 @@ var request = require("request");
 var rp = require('request-promise');
 var Promise = require('promise');
 fs = require('fs');
-var data = require('./example.json');
+var data = require('./bigdata.json');
 
 var url2 = "https://maps.googleapis.com/maps/api/geocode/json?address=Toledo&key=AIzaSyCvdeOb0v9VMFSpsRDbX8xVJpON-eMB-DM"
 url2 = "http://developer.cumtd.com/api/v2.2/json/GetStop?" +
@@ -43,7 +43,7 @@ function addLatLngEach(curP) {
 
       }
   }).then(function(){
-    fs.writeFile('dataWithLatLng.json', JSON.stringify(data));
+    fs.writeFile('bigdatanew.json', JSON.stringify(data));
   });
 }
 // console.log(data.length);
