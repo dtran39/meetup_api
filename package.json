@@ -21,8 +21,11 @@
     "classnames": "^2.2.5",
     "google-map-react": "^0.22.3",
     "history": "^3.0.0",
+    "promise": "^7.1.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-router-dom": "^4.0.0-beta.6"
+    "react-router-dom": "^4.0.0-beta.6",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
   }
 }

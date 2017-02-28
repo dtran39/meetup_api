@@ -9,7 +9,7 @@ export default class Header extends React.Component {
       <header className='Header'>
         <b>Header</b> &nbsp;
         <NavLink activeClassName="active" exact to="/">List</NavLink>
-        <NavLink activeClassName="active" to="/about">GoogleMaps</NavLink>
+        <NavLink activeClassName="active" to="/maps">GoogleMaps</NavLink>
         <NavLink to="/bad-url">Not Found Page</NavLink>
         <LoginButtons align='left' />
       </header>
